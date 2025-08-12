@@ -13,11 +13,6 @@ Performance testing of websockets is carried out using [k6](https://k6.io/) and 
 #### 1. **Testing Socket Connectivity (`websocket.js`)**
 This case checks the user's ability to establish a connection to the server through websockets.
 
-#### 2. **Testing Message Send (`login-message-send.js`)**
-This case simulates users attempting to log into the system and subsequently send messages.
-
-### 3. Testing Complete Flow with Messagin (`complete-flow-with-messaging.js`)
-Designed to emulate the full user experience, including the message transmission.
 
 ## Execution Instructions
 
